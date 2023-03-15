@@ -1,0 +1,175 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+}
+.bodydiv1{
+    height: 15%;
+    width: 60%;
+   background-color: rgb(249, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.score{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.bodydiv2{
+    height: 70%;
+    width: 60%;
+   background-color: rgb(10, 9, 9);
+   box-shadow: 0px 0px 3px 2px rgb(105, 104, 104);
+   border-bottom-right-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+}
+.questiondiv{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid rgb(30, 0, 0); */
+    border-bottom: 1px solid white;
+    color: rgb(44, 2, 254);
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.optiondiv{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid rgb(60, 223, 71); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.options{
+ 
+    height: 12%;
+    width: 60%;
+    border: 1px solid rgb(249, 246, 246);
+    border-radius: 2rem;
+    background-color: rgb(46, 91, 130);
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.options:hover{
+    background-color: rgb(47, 49, 49);
+    cursor: pointer;
+}
+.listofquestion{
+    font-size: 1.1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 30%;
+    height: 2rem;
+    background-color: rgb(69, 36, 253);
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: rgb(3, 3, 96);
+    cursor: pointer;
+}
+
+
+
+/* quiz pages--------------------------------------*/
+
+
+.quizresultpage{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quizresultpage h2{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+}
+.quizresultpage h3{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+}
+.quizresultpage button{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+    background-color: rgb(253, 255, 255);
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+.quizresultpage button:hover{
+    
+    background-color: rgb(7, 40, 72);
+   color: white;
+}
+.correct{
+    background-color: rgb(21, 183, 21);
+    height: 12%;
+    width: 60%;
+    border: 1px solid rgb(249, 246, 246);
+    border-radius: 2rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+/* .option{
+    background-color: rgb(214, 9, 9);
+    height: 12%;
+    width: 60%;
+    border: 1px solid rgb(249, 246, 246);
+    border-radius: 2rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+} */
